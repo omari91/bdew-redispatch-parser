@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RedispatchMessage>
+    <Header>
+        <DocumentID>RDP-2023-10-01-001</DocumentID>
+        <Sender>KRAFTWERK-BERLIN-01</Sender>
+        <Receiver>50HERTZ-TSO</Receiver>
+        <CreationDateTime>2023-10-01T08:00:00Z</CreationDateTime>
+    </Header>
+    <Payload>
+        <AvailabilitySeries>
+            <ResourceID>RES-TURBINE-A</ResourceID>
+            <TimeInterval>
+                <Start>2023-10-02T00:00:00Z</Start>
+                <End>2023-10-02T01:00:00Z</End>
+            </TimeInterval>
+            <AvailableCapacityMW>450.5</AvailableCapacityMW>
+            <Status>ACTIVE</Status>
+        </AvailabilitySeries>
+        <AvailabilitySeries>
+            <ResourceID>RES-TURBINE-A</ResourceID>
+            <TimeInterval>
+                <Start>2023-10-02T01:00:00Z</Start>
+                <End>2023-10-02T02:00:00Z</End>
+            </TimeInterval>
+            <AvailableCapacityMW>440.0</AvailableCapacityMW>
+            <Status>ACTIVE</Status>
+        </AvailabilitySeries>
+    </Payload>
+</RedispatchMessage>
